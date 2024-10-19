@@ -6,6 +6,12 @@ public class TileControler : MonoBehaviour
 {
     public int idTile;
 
+    private Color colorOriginal;
+
+    public void Start()
+    {
+        
+    }
     public void OnMouseEnter()
     {
         Renderer renderer = GetComponent<Renderer>();
